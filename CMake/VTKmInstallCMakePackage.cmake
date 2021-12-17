@@ -17,10 +17,6 @@ endif()
 
 set(vtkm_cmake_module_files)
 
-if(VTKm_ENABLE_TBB)
-  list(APPEND vtkm_cmake_module_files FindTBB.cmake)
-endif()
-
 set(vtkm_cmake_build_dir ${VTKm_BUILD_CMAKE_BASE_DIR}/${VTKm_INSTALL_CONFIG_DIR})
 foreach (vtkm_cmake_module_file IN LISTS vtkm_cmake_module_files)
   configure_file(
