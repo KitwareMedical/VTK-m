@@ -328,7 +328,6 @@ if(NOT VTKm_INSTALL_ONLY_LIBRARIES)
   install(
     FILES
       ${VTKm_SOURCE_DIR}/CMake/VTKmCMakeBackports.cmake
-      ${VTKm_SOURCE_DIR}/CMake/FindTBB.cmake
       ${VTKm_SOURCE_DIR}/CMake/patches/FindMPI.cmake
     DESTINATION ${VTKm_INSTALL_CMAKE_MODULE_DIR}
     )
