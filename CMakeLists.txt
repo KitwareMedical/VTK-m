@@ -74,6 +74,12 @@ endif()
 if (NOT DEFINED VTKm_EXPORT_NAME)
   set(VTKm_EXPORT_NAME "VTKmTargets")
 endif()
+if (NOT DEFINED VTKm_HEADERS_COMPONENT)
+  set(VTKm_HEADERS_COMPONENT "development")
+endif()
+if (NOT DEFINED VTKm_TARGETS_COMPONENT)
+  set(VTKm_TARGETS_COMPONENT "runtime")
+endif()
 
 set(VTKm_BINARY_INCLUDE_DIR "${VTKm_BINARY_DIR}/include")
 
