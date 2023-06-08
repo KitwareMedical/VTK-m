@@ -7,8 +7,8 @@ shopt -s dotglob
 readonly name="diy"
 readonly ownership="Diy Upstream <kwrobot@kitware.com>"
 readonly subtree="vtkm/thirdparty/$name/vtkm$name"
-readonly repo="https://gitlab.kitware.com/third-party/diy2.git"
-readonly tag="for/vtk-m-20220914-master-g0f1c387"
+readonly repo="https://github.com/KitwareMedical/diy.git"
+readonly tag="slicersmtk_for-vtk-m-20220914-master-2020-08-26-0f1c387"
 readonly paths="
 cmake
 include
